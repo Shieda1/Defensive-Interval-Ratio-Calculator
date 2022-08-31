@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Defensive Interval Ratio Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="defensiveintervalratioRadio" name="variables" checked>
+  <label for="defensiveintervalratioRadio">Defensive interval ratio</label>
+
+  <input type="radio" id="cashandcashequivalentsRadio" name="variables">
+  <label for="cashandcashequivalentsRadio">Cash and cash equivalents</label>
+
+  <input type="radio" id="marketablesecuritiesRadio" name="variables">
+  <label for="marketablesecuritiesRadio">Marketable securities</label>
+
+  <input type="radio" id="accountsreceivableRadio" name="variables">
+  <label for="accountsreceivableRadio">Accounts receivable</label>
+
+  <input type="radio" id="annualoperatingexpensesRadio" name="variables">
+  <label for="annualoperatingexpensesRadio">Annual operating expenses</label>
+
+  <input type="radio" id="annualnoncashchargesRadio" name="variables">
+  <label for="annualnoncashchargesRadio">Annual non-cash charges</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Cash and cash equivalents</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Marketable securities</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Accounts receivable</label>
+  <input type="number" id="v3"><br><br>
+  
+  <label for="v4" id="variable4">Annual operating expenses</label>
+  <input type="number" id="v4"><br><br>
+  
+  <label for="v5" id="variable5">Annual non-cash charges</label>
+  <input type="number" id="v5"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
